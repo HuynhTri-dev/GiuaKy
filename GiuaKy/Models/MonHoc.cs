@@ -4,7 +4,7 @@ namespace GiuaKy.Models
 {
     public class MonHoc
     {
-
+        [Key] 
         [MaxLength(10)]
         public string MaMH { get; set; }
 

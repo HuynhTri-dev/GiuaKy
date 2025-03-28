@@ -1,7 +1,10 @@
-﻿namespace GiuaKy.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace GiuaKy.Models
 {
     public class Sinhvien
     {
+        [Key]
         public int MaSV { get; set; }
         public string Hodem { get; set; }
         public string Ten { get; set; }
